@@ -6,10 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="lib/twisty.js/src/twisty.css" rel="stylesheet" type="text/css">
+    <script src="lib/twisty.js/src/twisty.ts"></script>
+    <script src="main.js"></script>
 </head>
 <body>
 <div id="container">
-    
+    <h1 class="header">Cuber Tools</h1>
+        <div class="description">Sit quam voluptatem distinctio nihil beatae? Illo aut minima ex odit enim? Neque quasi animi reprehenderit reiciendis enim Eos ab eaque aut ipsum fugit. Dolor non doloribus nulla aspernatur earum.</div>
 </div>
+
+<div class="cube-render">
+    <canvas class="cube"></canvas>
+    <twisty initialization="custom" alg="R U R'"></twisty>
+    
+    <script>
+        new TwistyPlayer(element);
+    </script>
+</div>
+
 </body>
 <html>
